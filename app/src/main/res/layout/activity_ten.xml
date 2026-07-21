@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TenActivity">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Methods"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:layout_width="78dp"
+            android:layout_height="79dp"
+            android:src="@drawable/visa" />
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mastercard_logo" />
+
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/s1" />
+        <ImageView
+            android:layout_width="88dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/s2" />
+
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/service_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Name"
+        android:textStyle="bold"
+        android:layout_margin="16dp" />
+
+    <EditText
+        android:id="@+id/service_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Service Price"
+        android:textStyle="bold"
+        android:layout_margin="16dp" />
+    <EditText
+        android:id="@+id/cardNumberEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CARD NUMBER"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:layout_margin="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="16dp">
+
+        <EditText
+            android:id="@+id/expirationDateEditText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="EXPIRATION DATE"
+            android:textStyle="bold"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/cvvEditText"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:hint="CVV"
+            android:textStyle="bold"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/cardHolderNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CARD HOLDER'S NAME"
+        android:textStyle="bold"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/confirmPaymentButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#9980FA"
+        android:text="CONFIRM PAYMENT"
+        android:layout_margin="16dp" />
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#EA2027"
+        android:text="Back"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+</LinearLayout>

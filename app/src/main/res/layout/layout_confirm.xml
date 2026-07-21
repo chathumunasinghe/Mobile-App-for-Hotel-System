@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_login.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/m1">
+    <!-- Logo Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp">
+        <!-- Replace this with an ImageView if you have a logo image -->
+    </LinearLayout>
+    <!-- Login Container -->
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="280dp"
+        android:layout_margin="16dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/grey"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Are you sure want to do this?"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <!-- Login Button -->
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:backgroundTint="#9980FA"
+            android:text="Yes"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:backgroundTint="#d63031"
+            android:text="No"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>

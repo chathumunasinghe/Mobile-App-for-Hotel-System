@@ -1,0 +1,15 @@
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Firebase config contains a project-specific API key - each dev/deployment
+# should use their own. See app/google-services.json.example.
+app/google-services.json
+

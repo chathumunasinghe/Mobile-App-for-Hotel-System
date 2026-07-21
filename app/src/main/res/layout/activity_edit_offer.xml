@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".EditOfferActivity">
+
+    <EditText
+        android:layout_marginTop="250sp"
+        android:id="@+id/offer_image_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activity image address"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/offer_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activity Name"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/offer_price_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activity Price"
+        android:textStyle="bold"
+        android:inputType="numberDecimal"
+        android:padding="16dp" />
+
+    <EditText
+        android:id="@+id/offer_details_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Activity Details"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Changes"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
+</LinearLayout>

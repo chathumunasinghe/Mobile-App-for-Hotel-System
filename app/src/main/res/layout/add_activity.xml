@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/layout/activity_login.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/image2">
+    <!-- Logo Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="16dp">
+        <!-- Replace this with an ImageView if you have a logo image -->
+    </LinearLayout>
+    <!-- Login Container -->
+    <LinearLayout
+        android:layout_width="381dp"
+        android:layout_height="300dp"
+        android:layout_margin="16dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/grey"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:backgroundTint="#00A0FF"
+            android:text="Add Services"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:backgroundTint="#00A0FF"
+            android:text="Add Rooms"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:backgroundTint="#00A0FF"
+            android:text="Add Offers"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:textSize="18sp"
+            android:backgroundTint="#00A0FF"
+            android:text="Add Promotions"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+</LinearLayout>
